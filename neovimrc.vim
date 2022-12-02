@@ -10,6 +10,11 @@ set number
 set relativenumber
 set hidden
 
+" FOLDING
+set foldenable
+set foldmethod=indent
+set foldlevel=99
+
 " INDENTATION
 set tabstop=2
 set softtabstop=0
@@ -39,7 +44,24 @@ nnoremap <leader>ya ggVG"*yggVG"+y
 nnoremap <leader>p "+p
 nnoremap <leader>P "*p
 
+" TELESCOPE
+map <leader>tt :Telescope<CR>
+map <leader>tb :Telescope buffers<CR>
+map <leader>tf :Telescope find_files<CR>
+map <leader>tg :Telescope live_grep<CR>
+map <leader>tr :Telescope registers<CR>
+
 " MISC
 map <leader>n :noh<CR>
 map <leader>N :set relativenumber!<CR>
 
+call plug#begin()
+Plug 'BurntSushi/ripgrep'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'sharkdp/fd'
+Plug 'preservim/nerdtree'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'lukas-reineke/indent-blankline.nvim'
+call plug#end()
