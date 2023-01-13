@@ -64,4 +64,5 @@ Plug 'sharkdp/fd'
 Plug 'preservim/nerdtree'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'neomake/neomake'
 call plug#end()
