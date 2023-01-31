@@ -51,10 +51,14 @@ map <leader>tf :Telescope find_files<CR>
 map <leader>tg :Telescope live_grep<CR>
 map <leader>tr :Telescope registers<CR>
 
+" FILETYPES
+autocmd BufNew,BufNewFile,BufRead *.html.twig :set filetype=html
+
 " MISC
 map <leader>n :noh<CR>
 map <leader>N :set relativenumber!<CR>
 
+" PLUGINS
 call plug#begin()
 Plug 'BurntSushi/ripgrep'
 Plug 'neovim/nvim-lspconfig'
