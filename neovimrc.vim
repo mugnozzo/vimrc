@@ -69,4 +69,5 @@ Plug 'preservim/nerdtree'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'neomake/neomake'
+Plug 'tpope/vim-fugitive'
 call plug#end()
