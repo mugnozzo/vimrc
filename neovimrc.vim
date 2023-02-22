@@ -1,9 +1,9 @@
-# Name: neovimrc.vim
-# Author:       Alek Mugnozzo
-# E-mail:       info@mugnozzo.net
-# Website:      mugnozzo.net
-# License:      GNU GPLv3.0
-# Hosted at:    https://github.com/mugnozzo/vimrc
+" Name: neovimrc.vim
+" Author:       Alek Mugnozzo
+" E-mail:       info@mugnozzo.net
+" Website:      mugnozzo.net
+" License:      GNU GPLv3.0
+" Hosted at:    https://github.com/mugnozzo/vimrc
 
 syntax on 
 
