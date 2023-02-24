@@ -1,4 +1,4 @@
-" Name: neovimrc.vim
+" Name:					neovimrc.vim
 " Author:       Alek Mugnozzo
 " E-mail:       info@mugnozzo.net
 " Website:      mugnozzo.net
@@ -43,7 +43,6 @@ nnoremap <leader>bn :bn<CR>
 nnoremap <leader>bp :bp<CR>
 nnoremap <leader>bb :buffer 
 nnoremap <leader>bl :buffers<CR>
-nnoremap <leader>m `
 
 " SELECTING/COPYING/PASTING
 nnoremap <leader>a ggVG
