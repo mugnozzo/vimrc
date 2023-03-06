@@ -44,6 +44,14 @@ nnoremap <leader>bp :bp<CR>
 nnoremap <leader>bb :buffer 
 nnoremap <leader>bl :buffers<CR>
 
+" RESIZING
+nnoremap <leader>zz <C-W>=
+nnoremap <leader>zZ :resize \| :vertical resize<CR>
+nnoremap <leader>zj :resize +5<CR>
+nnoremap <leader>zk :resize -5<CR>
+nnoremap <leader>zl :vertical resize +5<CR>
+nnoremap <leader>zh :vertical resize -5<CR>
+
 " SELECTING/COPYING/PASTING
 nnoremap <leader>a ggVG
 nnoremap <leader>ya ggVG"*yggVG"+y
