@@ -68,6 +68,14 @@ map <leader>tr :Telescope registers<CR>
 " FILETYPES
 autocmd BufNew,BufNewFile,BufRead *.html.twig :set filetype=html
 
+" APPEARANCE
+colorscheme desert
+highlight Normal ctermbg=233 guibg=#000000
+highlight LineNr cterm=bold ctermfg=226
+highlight LineNrAbove cterm=none ctermfg=227
+highlight LineNrBelow cterm=none ctermfg=227
+highlight NonText ctermbg=234
+
 " MISC
 map <leader>n :noh<CR>
 map <leader>N :set relativenumber!<CR>
