@@ -67,6 +67,8 @@ map <leader>tr :Telescope registers<CR>
 
 " FILETYPES
 autocmd BufNew,BufNewFile,BufRead *.html.twig :set filetype=html
+autocmd BufNew,BufNewFile,BufRead *.phtml :set filetype=html
+autocmd BufWritePost *.scss !sassc %:p %:p:r.css > /tmp/tmp_sass_output.txt
 
 " APPEARANCE
 colorscheme desert
