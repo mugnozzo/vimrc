@@ -39,12 +39,16 @@ nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>r :wincmd r<CR>
 nnoremap <leader>R :wincmd R<CR>
+" b is for buffer
 nnoremap <leader>bn :bn<CR>
 nnoremap <leader>bp :bp<CR>
 nnoremap <leader>bb :buffer 
 nnoremap <leader>bl :buffers<CR>
+" d is for directories
+nnoremap <leader>dd :Lexplore<CR>
 
 " RESIZING
+" z is to manage the size of the windows
 nnoremap <leader>zz <C-W>=
 nnoremap <leader>zZ :resize \| :vertical resize<CR>
 nnoremap <leader>zj :resize +5<CR>
@@ -64,6 +68,10 @@ map <leader>tb :Telescope buffers<CR>
 map <leader>tf :Telescope find_files<CR>
 map <leader>tg :Telescope live_grep<CR>
 map <leader>tr :Telescope registers<CR>
+
+" MISC
+" c is for code management
+map <leader>ce :Emmet 
 
 " FILETYPES
 autocmd BufNew,BufNewFile,BufRead *.html.twig :set filetype=html
