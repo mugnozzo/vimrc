@@ -23,10 +23,10 @@ set foldmethod=indent
 set foldlevel=99
 
 " INDENTATION
-set tabstop=2
+set tabstop=4
 set softtabstop=0
-set noexpandtab
-set shiftwidth=2
+set expandtab
+set shiftwidth=4
 syntax on
 
 " MAPLEADER
