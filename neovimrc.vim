@@ -1,4 +1,4 @@
-" Name:					neovimrc.vim
+" Name:         neovimrc.vim
 " Author:       Alek Mugnozzo
 " E-mail:       info@mugnozzo.net
 " Website:      mugnozzo.net
